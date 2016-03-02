@@ -67,14 +67,14 @@ functions
         UName       U;
         log         true;
 	rhoName	    rhoInf;
-        rhoInf      1.29;
+        rhoInf      1;
         CofR        ( 0 0 0 );
         liftDir     ( 0 1 0 );
         dragDir     ( 1 0 0 );
         pitchAxis   ( 0 0 1 );
-        magUInf     25;
-        lRef        0.3;
-        Aref        0.0003;
+        magUInf     20;
+        lRef        0.305;
+        Aref        0.00549;
     }
 }
 // ************************************************************************* //

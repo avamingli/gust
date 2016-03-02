@@ -20,42 +20,42 @@ FoamFile
     inlet
     {
         type            patch;
-        nFaces          220;
-        startFace       120610;
+        nFaces          280;
+        startFace       259456;
     }
     outlet
     {
         type            patch;
-        nFaces          212;
-        startFace       120830;
+        nFaces          248;
+        startFace       259736;
     }
     upperAndLower
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          564;
-        startFace       121042;
+        nFaces          984;
+        startFace       259984;
     }
     rotor
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          112;
-        startFace       121606;
+        nFaces          156;
+        startFace       260968;
     }
     stator
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          232;
-        startFace       121718;
+        nFaces          380;
+        startFace       261124;
     }
     AMI1
     {
         type            cyclicAMI;
         inGroups        1(cyclicAMI);
-        nFaces          48;
-        startFace       121950;
+        nFaces          96;
+        startFace       261504;
         matchTolerance  0.0001;
         transform       noOrdering;
         neighbourPatch  AMI2;
@@ -64,8 +64,8 @@ FoamFile
     {
         type            cyclicAMI;
         inGroups        1(cyclicAMI);
-        nFaces          48;
-        startFace       121998;
+        nFaces          96;
+        startFace       261600;
         matchTolerance  0.0001;
         transform       noOrdering;
         neighbourPatch  AMI1;
@@ -74,15 +74,15 @@ FoamFile
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          60664;
-        startFace       122046;
+        nFaces          130288;
+        startFace       261696;
     }
     back
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          60664;
-        startFace       182710;
+        nFaces          130288;
+        startFace       391984;
     }
 )
 

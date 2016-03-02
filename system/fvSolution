@@ -68,38 +68,6 @@ solvers
         tolerance       1e-08;
         relTol          0;
     }
-
-    k
-    {
-        solver          smoothSolver;
-        smoother        GaussSeidel;
-        tolerance       1e-05;
-        relTol          0.01;
-    }
-
-    epsilon
-    {
-        solver          smoothSolver;
-        smoother        GaussSeidel;
-        tolerance       1e-05;
-        relTol          0.01;
-    }
-
-    epsilonFinal
-    {
-        $epsilon;
-        tolerance       1e-05;
-        relTol          0;
-    }
-    
-    kFinal
-    {
-        $k;
-        tolerance       1e-05;
-        relTol          0;
-    }
-
-
 }
 
 PIMPLE
